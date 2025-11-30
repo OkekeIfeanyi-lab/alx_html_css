@@ -156,3 +156,301 @@ header {
     font-style: italic;
     line-height: 1.5;
 }
+
+.testimonial-section,
+.hero-continues {
+    background: linear-gradient(135deg, #C271FF 0%, #A55FE8 50%, #9B4FDD 100%);
+    padding: 100px 10%;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.testimonial-section > div:first-child,
+.hero-continues > div:first-child {
+    flex-shrink: 0;
+}
+
+.testimonial-section img,
+.hero-continues img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.testimonial-section > div:last-child,
+.hero-continues > div:last-child {
+    flex: 1;
+}
+
+.testimonial-section blockquote,
+.hero-continues blockquote {
+    font-size: 20px;
+    line-height: 1.7;
+    margin-bottom: 30px;
+    font-style: italic;
+    color: #ffffff;
+}
+
+.testimonial-section h3,
+.hero-continues h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+.testimonial-section p,
+.hero-continues p {
+    font-size: 16px;
+    font-style: italic;
+    opacity: 0.9;
+    color: #ffffff;
+}
+
+/* Other Sections Placeholder Styles */
+
+
+/* SECTION WRAPPER */
+.instructor-section {
+    padding: 80px 10%;
+    background: #ffffff;
+}
+
+/* SECTION TITLE */
+.instructor-section h2 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    color: #071629;
+    margin-bottom: 60px;
+}
+
+.instructor-section h2 span {
+    color: #C271FF;   /* Purple highlight */
+    font-weight: 700;
+}
+
+/* GRID CONTAINER */
+.instructor-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* CARD */
+.instructor-cards {
+    background: transparent;
+    padding: 0;
+}
+
+/* CARD IMAGE */
+.instructor-cards img {
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+    display: block;
+    margin-bottom: 20px;
+    position: relative;
+    object-fit: cover;
+}
+
+/* TITLE */
+.instructor-cards h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #071629;
+    margin-bottom: 10px;
+}
+
+/* DESCRIPTION */
+.instructor-cards p {
+    font-size: 14px;
+    color: rgba(7, 22, 41, 0.5);
+    margin-bottom: 15px;
+}
+
+/* AUTHOR SECTION */
+.instructor-image {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 10px;
+}
+
+.instructor-image img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.instructor-image p {
+    color: #C271FF; /* Purple name */
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* RATING STARS */
+.instructor-tags {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.instructor-tags i {
+    color: #C271FF;
+    font-size: 14px;
+}
+
+/* DURATION */
+.instructor-cards > p:last-child {
+    color: #C271FF;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.membership {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  padding: 80px 40px;
+  text-align: center;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.membership h2 {
+  font-size: 48px;
+  margin-bottom: 60px;
+  color: #fff;
+}
+
+.membership h2::first-line {
+  color: #a855f7;
+}
+
+.membership > div {
+  display: inline-block;
+  width: 250px;
+  margin: 0 30px 40px;
+  vertical-align: top;
+}
+
+.membership > div img {
+  width: 120px;
+  height: 70px;
+  margin-bottom: 20px;
+  filter: brightness(0) saturate(100%) invert(45%) sepia(89%) saturate(1500%) hue-rotate(250deg) brightness(100%);
+  object-fit: contain;
+  margin-bottom: 1.5rem;
+}
+
+.membership h3 {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.membership p {
+  color: #9ca3af;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.reg-btn {
+  padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #C271FF;
+    border: none;
+    border-radius: 1.5rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10rem;
+}
+
+.reg-btn:hover {
+  transform: translateY(-2px);
+   background-color: #c71585;
+}
+
+.reg-btn:active {
+  transform: translateY(0);
+}
+
+
+/* FAQ Section Styles */
+.F-A-Q {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 40px;
+  background-color: #fff;
+}
+
+.F-A-Q > h2 {
+  text-align: center;
+  font-size: 42px;
+  margin-bottom: 60px;
+  color: #333;
+  letter-spacing: 2px;
+}
+
+/* Main container for two columns */
+.F-A-Q > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+}
+
+/* Each column */
+.F-A-Q > div > div {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+/* Question container */
+.F-A-Q > div > div > div:nth-child(odd) {
+  margin-bottom: 0;
+}
+
+/* Question heading */
+.F-A-Q > div > div > div h3 {
+  font-size: 18px;
+  color: #1a1a1a;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+/* Answer text */
+.F-A-Q > div > div > div:nth-child(even) {
+  color: #666;
+  font-size: 15px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #071629;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+    height: 180px;
+    width: 100%;
+}
+
+.C-T-A {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+    width: 80%;
+}

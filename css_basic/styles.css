@@ -1,4 +1,4 @@
-/* Make body a flex container with vertical stacking */
+
 body {
     display: flex;
     flex-direction: column;

@@ -1,0 +1,26 @@
+/* Make body a flex container with vertical stacking */
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto; 
+}
+
+
+article {
+    flex: 2;
+    overflow-y: auto;
+}
+
+
+aside {
+    flex: 1;
+    overflow-y: auto;
+}
